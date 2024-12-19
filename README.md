@@ -1,7 +1,21 @@
-**Deploying a Sample Nginx Application on Kubernetes**
+**Kubernetes Assignment: Deploying sample app**
+- Deploy a sample k8s application
+- Create a Kubernetes deployment YAML file (`deployment.yaml`) for a sample application (e.g., Nginx).
+- Create a Kubernetes service YAML file (`service.yaml`) to expose the application.
+- Apply the deployment and service configurations
+- Verify that the application is running and accessible.
+- Scale the deployment to run multiple replicas of the application
+- Verify that the application is running with the specified number of replicas.
+- Check the logs of the application
+- Document the steps you followed in a `README.md` file.
+- Include instructions on how to run the Kubernetes configurations and any dependencies required.
 
-* A running Kubernetes cluster.
-* kubectl command-line tool configured to access your cluster.
+**Solution:**
+Deploying a Sample Nginx Application on Kubernetes
+
+Pre-requisite:
+- A running Kubernetes cluster.
+- kubectl command-line tool configured to access your cluster.
 
 **Steps**
 
